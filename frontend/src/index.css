@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Rubik', sans-serif;
+}
+.App{
+  width: 100%;
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+button{
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+/*------------------------ Header ----------------------*/
+@import url("./components/headers/header.css");
+/*------------------------ Auth ----------------------*/
+@import url("./components/mainpages/auth/login.css");
+/*------------------------ Categories ----------------------*/
+@import url("./components/mainpages/category/categories.css");
+/*------------------------ Add products ----------------------*/
+@import url("./components/mainpages/create-product/addproduct.css");
+/*------------------------ List products ----------------------*/
+@import url("./components/mainpages/products/product.css");
+/*------------------------ Loading ----------------------*/
+@import url("./components/mainpages/utils/loading/loading.css");
+
+
+
